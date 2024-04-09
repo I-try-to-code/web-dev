@@ -53,7 +53,6 @@ if (random_number>random_number2){
 else if(random_number==random_number2){
     document.querySelector("h1").textContent= "It's a DRAW!!";
 }
-}
 else{
     document.querySelector("h1").textContent= "Player 2 Wins!";
 }
