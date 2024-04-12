@@ -1,4 +1,5 @@
-for (var i=0;i<7;i++){
+var no_of_drums=document.querySelectorAll(".drum").length;
+for (var i=0;i<no_of_drums;i++){
     document.querySelectorAll(".drum")[i].addEventListener("click",function () {
         var audioo = new Audio("sounds/crash.mp3");
         audioo.play();
