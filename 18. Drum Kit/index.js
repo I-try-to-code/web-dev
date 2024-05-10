@@ -1,9 +1,17 @@
 var no_of_drums = document.querySelectorAll(".drum").length;
+function add_animation(key){
+    var activebutton= document.querySelector("."+ key);
+    activebutton.classList.add("pressed");
+    setTimeout(function() {
+        activebutton.classList.remove("pressed");
+    }, 100);
+}
 
 for (var i = 0; i < no_of_drums; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         var button_inner_html = this.innerHTML;
-
+        // Check which drum was clicked and play the corresponding sound
+        add_animation(button_inner_html);
         switch (button_inner_html) {
             case "w":
                 var audioFile = "sounds/tom-1.mp3";
@@ -36,9 +44,11 @@ for (var i = 0; i < no_of_drums; i++) {
         audio.play();
     });
 }
+
 // Add event listener outside the loop
 document.addEventListener("keydown", function(event) {
     // Check if the key pressed corresponds to a drum sound
+    add_animation(event.key);
     switch (event.key) {
         case "w":
             playSound("sounds/tom-1.mp3");
