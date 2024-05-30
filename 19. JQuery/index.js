@@ -44,7 +44,17 @@ $("h1").append("<button>c</button>")//adda a button after h1 content but before 
 
 
 //website animations using jquery
-
 $("button").on("click",function(){
     $("h1").hide("h1");
 });
+
+
+//use toggle to hide and show on click,accordingly.++ fade toggle also exists ++ slide toggle is also there ++ .animate <- allows you to define custon animations :for example, changing the occupacy
+$("button").on("click",function(){
+    $("h1").toggle("h1");
+});
+
+//you can comvbine multiple animations ex: slideup().slidedown().blah blah
+// will anumate accordingly.first it'll slide up, then it'll slide dowsn 
+//jquery effect methods     
+
