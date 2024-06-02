@@ -24,7 +24,12 @@ const sound_green = new Audio("./sounds/green.mp3");
 const sound_red = new Audio("./sounds/red.mp3");
 const sound_yellow = new Audio("./sounds/yellow.mp3");
 const sound_wrong = new Audio("./sounds/wrong.mp3");
+function nex_seq(){
+level++;
+$("h1").text(" level "+ level );
 
+
+}
 function playSound(color) {
     switch (color) {
         case "blue":
@@ -50,5 +55,11 @@ $(".btn").click(function() {
     userClickedPattern.push(userChosenColour);
     playSound(userChosenColour);
     blink(userChosenColour);
-    console.log(userChosenColour);  
 });
+var level=0;
+$(document).keypress(function (event) {
+    if (level==0){
+    nex_seq();
+    }
+});
+
