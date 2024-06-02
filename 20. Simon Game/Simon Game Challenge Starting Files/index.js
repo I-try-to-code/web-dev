@@ -1,7 +1,8 @@
 //alert("the script has been incorporated");
-var gamePattern=[]
+var gamePattern=[];
 var button_color=["red", "blue", "green", "yellow"];    
 var ran_num;
+var userClickedPattern=[];
 function random_num(){
     ran_num= Math.floor(Math.random()*4);
 
@@ -45,7 +46,9 @@ function playSound(color) {
 
 // Binding click events to the buttons to play corresponding sounds
 $(".btn").click(function() {
-    var userChosenColour = $(this).attr("id");
+    var userChosenColour = $(this).attr("id"); 
+    userClickedPattern.push(userChosenColour);
     playSound(userChosenColour);
     blink(userChosenColour);
+    console.log(userChosenColour);  
 });
