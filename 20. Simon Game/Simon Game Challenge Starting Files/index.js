@@ -75,3 +75,14 @@ $(document).keypress(function (event) {
     }
 });
 
+while (level !=0){
+
+    gen_col();
+    $(".btn").click(function() {
+        var userChosenColour = $(this).attr("id"); 
+        userClickedPattern.push(userChosenColour);
+        playSound(userChosenColour);
+        blink(userChosenColour);
+    });
+    w
+}
