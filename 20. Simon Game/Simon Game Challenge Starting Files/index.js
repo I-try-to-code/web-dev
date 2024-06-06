@@ -78,11 +78,16 @@ $(document).keypress(function (event) {
 while (level !=0){
 
     gen_col();
+    for (int i;i<level;i++){
+        playSound(gamePattern[i]);
+        blink(gamePattern[i]);
+        
+    }
     $(".btn").click(function() {
         var userChosenColour = $(this).attr("id"); 
         userClickedPattern.push(userChosenColour);
         playSound(userChosenColour);
         blink(userChosenColour);
     });
-    w
+    
 }
