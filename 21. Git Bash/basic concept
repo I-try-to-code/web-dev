@@ -1,0 +1,18 @@
+to interact with kernel
+2 interfaces
+1> Graphical user interface GUI ex. finder/file explorer
+2> command line interfact CLI ex. git bash\
+
+bash shell:
+Linux is a unix like system .why ise command line? greater control.faster too.
+~you can even create secret folders
+website to look cool and appear like a hacker :https://hackertyper.net/#
+ls shows all the things in the current directory.
+cd (change directory) changes the current directory.
+if you wanna change something in between the command, left arrow is time consuming , soo use alt so cursor changes to plus sign then use mouse to go there.
+
+//creating/opening/and removing files ande directories
+
+creating a new folde: %mkdir <folder name>
+creating a file: %touch <filename.ext ex. ayan.txt> 
+to open a file: start ayan.txt
