@@ -13,6 +13,11 @@ if you wanna change something in between the command, left arrow is time consumi
 
 //creating/opening/and removing files ande directories
 
+to know which directory you are in: pwd command. (print working directory)
 creating a new folde: %mkdir <folder name>
 creating a file: %touch <filename.ext ex. ayan.txt> 
-to open a file: start ayan.txt
+to open a file: start ayan.txt // touch ayan.txt // code ayan.txt (opens in vsc)
+
+// to remove file:
+use the rm command. ex. rm ayan.txt
+to remove all files in a folder: open the directory >> remove *
