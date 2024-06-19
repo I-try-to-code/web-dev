@@ -1,0 +1,15 @@
+what is node js?
+
+-> a backend language. 
+framewords--provibe prebuilt functionality.
+
+node.js
+
+provides us with a js runtime .
+is an asynchronous mode
+allows us to run js on the server side
+allows easy scaling of application
+fast and non blocking. also efficient
+has a huge ecosystem
+
+NODE repl= read eval print loop.
