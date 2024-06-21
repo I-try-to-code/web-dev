@@ -13,3 +13,4 @@ fast and non blocking. also efficient
 has a huge ecosystem
 
 NODE repl= read eval print loop.
+it is a command line tool that allows us to execute js code in a interactive shell.
