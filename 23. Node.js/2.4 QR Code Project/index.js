@@ -13,10 +13,10 @@ fs.writeFile("message.txt", "i am entering a string. Hellooooooo ",(err) => {
 var qr = require('qr-image');
 fs.readFile("./message.txt", "utf8", (err, data) => {//very important to mention utf8 or else we get numerical values 
     if (err) throw err;
-    var qr_svg = qr.image(data, { type: 'svg' });
+    var qr_svg = qr.image(data, { type: 'image' });
 qr_svg.pipe(require('fs').createWriteStream('website.svg'));
  
-var svg_string = qr.imageSync(data, { type: 'svg' });
+var svg_string = qr.imageSync(data, { type: 'image' });
 });
   
 
