@@ -3,9 +3,19 @@
     font-size: larger;
 }
 .nav-link{
-    color: #d6a413;
+    color: #deb63e;
 }
 .gol{
-    color: #d6a413;
+    color: #deb63e;
 
 }
+.namee{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #deb63e;
+    font-size: 33px;
+
+  }
+  
