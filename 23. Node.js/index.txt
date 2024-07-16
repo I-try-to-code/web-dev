@@ -17,3 +17,6 @@ it is a command line tool that allows us to execute js code in a interactive she
 
 to install an npm package:  npm install <abc>
 packages availabe @ npmjs.com 
+
+
+after importing a mofdule run npm init -y
