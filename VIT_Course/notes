@@ -1,0 +1,14 @@
+//different types of targets when using hyperlinks
+    _self / _blank / _parent / _pop
+
+
+    if an anchor tag has been used, you can customise its color by using
+    a:visited{
+        ghgdhfyhf
+        color:yellow;
+    }
+    in css
+
+
+    to limit vcharacters in input box: maxlength="" #number of characters
+    
