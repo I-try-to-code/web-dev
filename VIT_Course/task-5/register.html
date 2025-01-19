@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Register</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+  <section>
+    <h2>Create Your Account</h2>
+    <form>
+      <label>Name:</label><input type="text" required minlength="3">
+      <label>Email:</label><input type="email" required>
+      <label>Password:</label><input type="password" required minlength="8">
+      <label>DOB:</label><input type="date" required>
+      <label>Phone:</label><input type="tel" required pattern="[0-9]{10}">
+      <label>Gender:</label>
+      <select required><option value="">Select</option><option>Male</option><option>Female</option></select>
+      <label>Address:</label><textarea required minlength="10"></textarea>
+      <label>State:</label><input type="text" required>
+      <label>ZIP:</label><input type="text" required pattern="[0-9]{5}">
+      <label>Username:</label><input type="text" required>
+      <button>Submit</button>
+    </form>
+  </section>
+  <footer>&copy; 2025 Your Website</footer>
+</body>
+</html>
