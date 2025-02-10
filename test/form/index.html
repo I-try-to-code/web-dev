@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f6a3a3;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #f6a3a3;
+    color: white;
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ec5e5e;
+}
+
+footer {
+    text-align: center;
+    background: #f6a3a3;
+    color: white;
+    padding: 1em 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cultural Event Feedback</h1>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5"></textarea>
+
+            <label for="rating">Rate the Event:</label>
+            <select id="rating" name="rating">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <fieldset>
+                <legend>How did you hear about us?</legend>
+                <label><input type="radio" name="source" value="social_media"> Social Media</label>
+                <label><input type="radio" name="source" value="friend"> Friend</label>
+                <label><input type="radio" name="source" value="other"> Other</label>
+            </fieldset>
+
+            <label><input type="checkbox" name="subscribe"> Subscribe to our newsletter</label>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Cultural Event. All rights reserved.</p>
+    </footer>
+</body>
+</html>
