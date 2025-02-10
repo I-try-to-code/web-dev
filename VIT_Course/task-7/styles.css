@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Header */
+header {
+    background-color: #100ea0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+/* Blog Posts */
+main {
+    flex: 2;
+    margin-right: 20px;
+}
+
+article {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 300px;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 10px;
+}
+
+article h2 {
+    color: #9c9aff;
+    text-align: center;
+}
+
+article p {
+    line-height: 1.5;
+}
+
+/* Sidebar */
+aside {
+    flex: 1;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    float: right;
+}
+
+aside h3 {
+    color: #889eff;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #100ea0;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
