@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | RoboVITics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg"> <img src=""></div>  
+    <div class="calc">
+        <h2>Simple Calculator</h2>
+        <p>Powered by RoboVITics</p>
+        <input type="number" id="n1" placeholder="First number">
+        <input type="number" id="n2" placeholder="Second number">
+        <div>
+            <button onclick="calc('+')">+</button>
+            <button onclick="calc('-')">-</button>
+            <button onclick="calc('*')">×</button>
+            <button onclick="calc('/')">÷</button>
+        </div>
+        <h2 id="res">Result: </h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
