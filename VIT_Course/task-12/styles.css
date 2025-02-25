@@ -1,0 +1,11 @@
+
+.container{
+    padding: 20px;
+    border-style: double;
+}
+.colour{
+    color: royalblue;
+}
+.bg{
+    background-color: lightsalmon;
+}
